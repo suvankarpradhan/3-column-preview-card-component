@@ -65,7 +65,9 @@ button:hover {
 .attribution > a {
   color: hsl(228, 45%, 44%);
 }
-@media (max-width: 375px) {
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
   .container {
     flex-direction: column;
     margin: 25% 10%;
